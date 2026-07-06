@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sample Farm Boundary",
+        "description": "Example AOI – replace with your actual farm boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.9629, 20.5937],
+            [78.9729, 20.5937],
+            [78.9729, 20.6037],
+            [78.9629, 20.6037],
+            [78.9629, 20.5937]
+          ]
+        ]
+      }
+    }
+  ]
+}

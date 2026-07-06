@@ -1,0 +1,22 @@
+# Agricultural Health Alert System – Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core / Required ────────────────────────────────────────────────────────────
+earthengine-api>=0.1.324   # Google Earth Engine Python API
+
+# ── Recommended ────────────────────────────────────────────────────────────────
+tqdm>=4.64.0               # Progress bars for baseline computation
+geemap>=0.29.0             # Shapefile → GEE upload + interactive maps (optional)
+
+# ── PDF Report (optional) ──────────────────────────────────────────────────────
+reportlab>=4.0.0           # PDF generation for --generate_report flag
+
+# ── Standard-library modules used (no install needed) ──────────────────────────
+# smtplib   – email sending
+# json      – config file parsing
+# logging   – structured logging
+# argparse  – CLI argument parsing
+# pathlib   – cross-platform file paths
+# csv       – CSV export
+# re        – date validation
+# urllib    – thumbnail download
