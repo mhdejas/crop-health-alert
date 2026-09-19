@@ -1,6 +1,47 @@
+```
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
 __pycache__/
 *.pyc
-alerts/
-.env
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env/
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.cache
+
+# Distribution / packaging
+dist/
+build/
 *.egg-info/
+.installed.cfg
+*.egg
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
 .DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
+```
