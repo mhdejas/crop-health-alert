@@ -1,6 +1,6 @@
 {
-  "_comment": "Agricultural Health Alert System – Example Configuration",
-  "_note": "Sensitive values (SMTP_PASSWORD) should be set via environment variables instead.",
+  "_comment": "Configuration for Crop Health Alert System",
+  "_note": "Set sensitive values like SMTP_PASSWORD via environment variables",
 
   "AOI": "farm_boundary.geojson",
 
@@ -29,11 +29,11 @@
   "GEE_PROJECT": null,
   "GEE_CREDENTIALS_FILE": null,
 
-  "_env_vars_supported": {
-    "CROP_SMTP_SERVER":  "Overrides SMTP_SERVER",
-    "CROP_SMTP_PORT":    "Overrides SMTP_PORT",
-    "CROP_SENDER_EMAIL": "Overrides SENDER_EMAIL",
-    "CROP_SMTP_PASSWORD":"Used as SMTP_PASSWORD (recommended – never put password in config file)",
-    "GEE_PROJECT":       "Overrides GEE_PROJECT"
+  "_env_vars": {
+    "CROP_SMTP_SERVER":   "Overrides SMTP_SERVER",
+    "CROP_SMTP_PORT":     "Overrides SMTP_PORT",
+    "CROP_SENDER_EMAIL":  "Overrides SENDER_EMAIL",
+    "CROP_SMTP_PASSWORD": "SMTP password (never store in config)",
+    "GEE_PROJECT":        "Overrides GEE_PROJECT"
   }
 }
